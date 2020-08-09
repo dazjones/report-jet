@@ -15,4 +15,6 @@ curl -X POST 127.0.0.1:8000/api/v0/report/new -F 'bundle=@path/to/bundle.tar.gz'
 ```
 
 ## Viewing the uploaded test bundle
+```
 http://localhost:8000/report/name-of-component/build-id/
+```
